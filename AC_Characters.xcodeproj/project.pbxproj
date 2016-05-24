@@ -11,7 +11,6 @@
 		8E9DD0961CF3859600486411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DD0951CF3859600486411 /* ViewController.swift */; };
 		8E9DD0991CF3859600486411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD0971CF3859600486411 /* Main.storyboard */; };
 		8E9DD09B1CF3859600486411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD09A1CF3859600486411 /* Assets.xcassets */; };
-		8E9DD09E1CF3859600486411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD09C1CF3859600486411 /* LaunchScreen.storyboard */; };
 		8E9DD0B61CF385A300486411 /* abdul_nuquod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD0A61CF385A300486411 /* abdul_nuquod.jpg */; };
 		8E9DD0B71CF385A300486411 /* achilles_davenport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD0A71CF385A300486411 /* achilles_davenport.jpg */; };
 		8E9DD0B81CF385A300486411 /* al mualim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD0A81CF385A300486411 /* al mualim.jpg */; };
@@ -39,6 +38,8 @@
 		8EB98C681CF4AAE4003F6AA7 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB98C671CF4AAE4003F6AA7 /* CharacterCell.swift */; };
 		8EB98C6A1CF4AFAC003F6AA7 /* supp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB98C691CF4AFAC003F6AA7 /* supp.png */; };
 		8EB98C6C1CF4CECB003F6AA7 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB98C6B1CF4CECB003F6AA7 /* DetailTableViewController.swift */; };
+		8EB98C701CF4F9E7003F6AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB98C6F1CF4F9E7003F6AA7 /* LaunchScreen.storyboard */; };
+		8EB98C721CF4F9F2003F6AA7 /* assassinscreedlogo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB98C711CF4F9F2003F6AA7 /* assassinscreedlogo-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +48,6 @@
 		8E9DD0951CF3859600486411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E9DD0981CF3859600486411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E9DD09A1CF3859600486411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E9DD09D1CF3859600486411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E9DD09F1CF3859600486411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9DD0A61CF385A300486411 /* abdul_nuquod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abdul_nuquod.jpg; sourceTree = "<group>"; };
 		8E9DD0A71CF385A300486411 /* achilles_davenport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = achilles_davenport.jpg; sourceTree = "<group>"; };
@@ -76,6 +76,8 @@
 		8EB98C671CF4AAE4003F6AA7 /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		8EB98C691CF4AFAC003F6AA7 /* supp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supp.png; sourceTree = "<group>"; };
 		8EB98C6B1CF4CECB003F6AA7 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		8EB98C6F1CF4F9E7003F6AA7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EB98C711CF4F9F2003F6AA7 /* assassinscreedlogo-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "assassinscreedlogo-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,7 @@
 				8EB98C6B1CF4CECB003F6AA7 /* DetailTableViewController.swift */,
 				8E9DD0971CF3859600486411 /* Main.storyboard */,
 				8E9DD09A1CF3859600486411 /* Assets.xcassets */,
-				8E9DD09C1CF3859600486411 /* LaunchScreen.storyboard */,
+				8EB98C6F1CF4F9E7003F6AA7 /* LaunchScreen.storyboard */,
 				8E9DD09F1CF3859600486411 /* Info.plist */,
 				8E9DD0A51CF385A300486411 /* ACResource */,
 			);
@@ -126,6 +128,7 @@
 		8E9DD0A51CF385A300486411 /* ACResource */ = {
 			isa = PBXGroup;
 			children = (
+				8EB98C711CF4F9F2003F6AA7 /* assassinscreedlogo-1.png */,
 				8EB98C691CF4AFAC003F6AA7 /* supp.png */,
 				8EB98C651CF4A996003F6AA7 /* Templar-icon.png */,
 				8EB98C631CF4A98F003F6AA7 /* acicon.png */,
@@ -217,10 +220,11 @@
 				8EB98C641CF4A98F003F6AA7 /* acicon.png in Resources */,
 				8E9DD0DB1CF3A5CC00486411 /* evie.png in Resources */,
 				8E9DD0D51CF3A55200486411 /* edward.png in Resources */,
-				8E9DD09E1CF3859600486411 /* LaunchScreen.storyboard in Resources */,
 				8E9DD0BA1CF385A300486411 /* arno_dorian.jpg in Resources */,
+				8EB98C701CF4F9E7003F6AA7 /* LaunchScreen.storyboard in Resources */,
 				8E9DD0C41CF385A300486411 /* rodrigo_borgia.jpg in Resources */,
 				8E9DD0C21CF385A300486411 /* lucrezia_borgia.jpg in Resources */,
+				8EB98C721CF4F9F2003F6AA7 /* assassinscreedlogo-1.png in Resources */,
 				8E9DD09B1CF3859600486411 /* Assets.xcassets in Resources */,
 				8E9DD0BF1CF385A300486411 /* desmond_miles.jpg in Resources */,
 				8E9DD0D91CF3A5C500486411 /* jacob.png in Resources */,
@@ -265,14 +269,6 @@
 				8E9DD0981CF3859600486411 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8E9DD09C1CF3859600486411 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E9DD09D1CF3859600486411 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
